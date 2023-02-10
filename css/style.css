@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: #eee;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  background-image: url("../images/body-ng.webp");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.box {
+  border-radius: 26px;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  -webkit-box-shadow: 13px 19px 8px 0px rgba(83, 255, 0, 0.2);
+  -moz-box-shadow: 13px 19px 8px 0px rgba(83, 255, 0, 0.2);
+  box-shadow: 13px 19px 8px 0px rgba(83, 255, 0, 0.2);
+}
+.userWords {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 15px;
+}
+.scoreHeading {
+  margin-top: 30px;
+  width: 80%;
+  text-align: right;
+}
+.modals {
+  position: absolute;
+  background-color: aliceblue;
+  width: 500px;
+  height: 250px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  border-radius: 25px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.resetGames {
+  padding: 15px 25px;
+  border-radius: 15px;
+  color: aqua;
+  background-color: darkblue;
+  font-size: 25px;
+  border: none;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.yourScore {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.hidden {
+  display: none;
+}
